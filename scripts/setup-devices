@@ -57,7 +57,7 @@ done
 echo "Installing Vim plugin manager"
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    
+
 echo "Installing Vim plugins"
 vim +PlugInstall +qall
 
@@ -173,7 +173,7 @@ defaults write com.google.chrome IncognitoModeAvailability -integer 1
 
 cat << EOF
 
-Most importantly, my task list (Todoist) is the single source of truth linking to everything else. 
+Most importantly, my task list (Todoist) is the single source of truth linking to everything else.
 
 Most things are taken care of automatically with the set up script, but some manual items are needed:
 
@@ -313,7 +313,7 @@ Then, restart desktop.
   - Google safe search
 - learn/ folder
   - Feedly
-    - Sign in 
+    - Sign in
     - Title-only layout
     - Show in Safari share
   - Kindle
